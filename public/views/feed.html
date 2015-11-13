@@ -1,0 +1,15 @@
+<div class="feed-holder">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Have something to say?" ng-model="post.name">
+        <div class="input-group-addon" ng-click="addPost()">Add Post</button></div>
+    </div>
+    <table class="table">
+        </thread>
+        <tbody>
+        <tr ng-repeat="post in posts">
+            <td>{{post.name}}</td>
+            <td><button class="btn btn-danger" ng-click="removePost(post._id, $index)">Delete</button></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

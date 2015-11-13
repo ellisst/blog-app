@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html ng-app="blogApp">
+<head>
+    <link rel="stylesheet" href="bower-components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower-components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet/less" type="text/css" href="styles/index.less" />
+
+    <title>Blog</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">The Blog App</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#feed"><i class="fa fa-shield"></i>News Feed</a></li>
+                <li><a href="#signin"><i class="fa fa-shield"></i> Sign in</a></li>
+                <li><a href="#register"><i class="fa fa-shield"></i> Register</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- MAIN CONTENT AND INJECTED VIEWS -->
+<div class="container">
+
+    <div ng-view>
+    </div>
+
+</div>
+
+<script src="bower-components/less/dist/less.min.js"></script>
+<script src="bower-components/angular/angular.min.js"></script>
+<script src="bower-components/angular-route/angular-route.min.js"></script>
+<script src="scripts/controllers/mainController.js"></script>
+<script src="scripts/controllers/feedController.js"></script>
+</body>
+
+</html>

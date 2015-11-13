@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Course_Work/Mongo_DB_Node/Week4/hw4-3/blog/blog.iml" filepath="$PROJECT_DIR$/../../Course_Work/Mongo_DB_Node/Week4/hw4-3/blog/blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/myblogapp.iml" filepath="$PROJECT_DIR$/.idea/myblogapp.iml" />
+    </modules>
+  </component>
+</project>
